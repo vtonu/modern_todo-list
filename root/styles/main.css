@@ -10,3 +10,19 @@ body {
     color: #FFF;
     font-family: "Roboto Slab", serif;
 }
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+.todoList {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 320px;
+    height: 500px;
+    background: #FFF;
+    border-radius: 10px;
+    box-shadow: 0 7px 30px rgba(62, 9, 11, .3);
+}
