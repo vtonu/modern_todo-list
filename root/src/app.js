@@ -1,7 +1,7 @@
 const submitForm = document.querySelector(".add");
 const addButton = document.querySelector(".add-todo");
 const todoList = document.querySelector(".todos");
-const list = document.querySelector(".todos li");
+const list = document.querySelectorAll(".todos li");
 
 let listLenght = list.length;
 
