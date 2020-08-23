@@ -1,0 +1,12 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    min-height: 450px;
+    height: 100vh;
+    margin: 0;
+    background: radial-gradient(ellipse farthest-corner at center top, #F39264 0%, #F2606F 100%);
+    color: #FFF;
+    font-family: "Roboto Slab", serif;
+}
