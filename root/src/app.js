@@ -15,22 +15,24 @@ const generateTemplate = (todo) => {
                 </label>
                 <i class="far fa-trash-alt delete"></i>
             </li>`;
-    todoList.innerHTML += html;
+  todoList.innerHTML += html;
 };
 
 function addTodos(e) {
-    e.preventDefault();
-    const todo = submitForm.add.value.trim();
-    if (todo.length) {
-        listLenght = listLenght + 1;
-        generateTemplate(todo);
-        submitForm.reset();
-    };
-};
+  e.preventDefault();
+  const todo = submitForm.add.value.trim();
+  if (todo.length) {
+    listLenght = listLenght + 1;
+    generateTemplate(todo);
+    submitForm.reset();
+  }
+}
 
 submitForm.addEventListener("submit", addTodos);
-addButton.addEventListener('click', addTodos);
+addButton.addEventListener("click", addTodos);
 
 function deleteTodos(e) {
-    if
+  if (e.target.classList.contains("delete")) {
+    e.target.parentElement.remove();
+  }
 }
