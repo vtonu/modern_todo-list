@@ -8,7 +8,7 @@ body {
   min-height: 450px;
   height: 100vh;
   margin: 0;
-  background: radial-gradient(ellipse farthest-corner at center top, #f39264 0%, #f2606f 100%);
+  background: radial-gradient(ellipse farthest-corner at center top, #64a2f3 0%, #fffafa 100%);
   color: #fff;
   font-family: "Roboto Slab", serif;
 }
@@ -182,4 +182,8 @@ textarea {
   opacity: 0;
   transform: scale(1.3);
   transition: opacity 300ms cubic-bezier(0.2, 0, 0, 1), transform 400ms cubic-bezier(0.3, 0, 0, 1.4);
+}
+
+i {
+  color: #353a42;
 }
