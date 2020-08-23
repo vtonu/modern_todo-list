@@ -36,3 +36,5 @@ function deleteTodos(e) {
     e.target.parentElement.remove();
   }
 }
+
+todoList.addEventListener("click", deleteTodos);
