@@ -33,7 +33,8 @@
       </div>
       <div class="content">
         <form class="add">
-          <input type="text" name="add" placeholder="Add item..." />
+          <!-- onfocus to remove placeholder. -->
+          <input type="text" name="add" placeholder="Add item..." class="custom-input" onfocus="this.placeholder = ''"/>
           <div class="input-buttons">
             <a href="#0" class="add-todo">
               <i class="fas fa-plus add"></i>
