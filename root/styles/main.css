@@ -8,7 +8,7 @@ body {
   min-height: 450px;
   height: 100vh;
   margin: 0;
-  background: radial-gradient(ellipse farthest-corner at center top, #64a2f3 0%, #fffafa 100%);
+  background: radial-gradient(ellipse farthest-corner at center top, #0ea5f7 0%, #ffffff 85%);
   color: #fff;
   font-family: "Roboto Slab", serif;
 
@@ -113,7 +113,7 @@ textarea {
   justify-content: space-between;
 }
 .content li i {
-  color: #6c717b;
+  color: #0ea5f7;
   font-size: 14px;
   cursor: pointer;
   padding: 5px 10px;
@@ -132,7 +132,7 @@ textarea {
   padding: 5px 5px 5px 30px;
 }
 .content input[type="checkbox"] + label:hover {
-  color: #969daa;
+  color: #83878f;
   background-color: #f4f7fa;
 }
 .content input[type="checkbox"] + label span.check {
@@ -193,7 +193,7 @@ textarea {
 }
 
 i {
-  color: #73a1ec;
+  color: #0ea5f7;
 }
 i:active {
   transform: scale(1.2, 1.2);
