@@ -11,6 +11,13 @@ body {
   background: radial-gradient(ellipse farthest-corner at center top, #64a2f3 0%, #fffafa 100%);
   color: #fff;
   font-family: "Roboto Slab", serif;
+
+  /*= Disable text selection. =*/
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer */
+  -khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */
+  -webkit-user-select: none; /* Chrome, Safari, and Opera */
+  -webkit-touch-callout: none; /* Disable Android and iOS callouts*/
 }
 button,
 input,
@@ -63,7 +70,7 @@ textarea {
   font-weight: 700;
 }
 .content {
-  padding: 10px 20px;
+  padding: 25px 10px;
 }
 .content form {
   display: flex;
